@@ -12,7 +12,6 @@ export default function Homepage() {
         <SectionFive />
         <SectionTwo />
         <SectionThree />
-       
         <SectionFour />
     </div>
   )
