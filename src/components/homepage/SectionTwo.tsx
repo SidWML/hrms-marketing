@@ -28,7 +28,7 @@ export default function SectionTwo() {
         <div className=" w-full lg:px-12 py-24 flex flex-col lg:space-y-[120px] space-y-[60px] ">
             <div className=" grid lg:grid-cols-2 gap-3 relative ">
                 <div className="   w-full lg:p-12 rounded-xl overflow-hidden   p-6 bg-[#DEF5E5]">
-                    <img src="/key-3.svg" alt="" className=" lg:max-w-[80%] mx-auto w-full h-full drop-shadow-2xl  " />
+                    <img src="key-3.svg" alt="" className=" lg:max-w-[80%] mx-auto w-full h-full drop-shadow-2xl  " />
                 </div>
                 <div className=" lg:p-12 py-6  space-y-4 h-[max-content]  ">
                     <SectionHeadings title="Streamlined Employee Data Management: Elevate HR Efficiency with Our Advanced Solution"  />
@@ -55,14 +55,14 @@ export default function SectionTwo() {
                     </div>
                 </div>
                 <div className="  lg:order-2 order-1 w-full m-auto flex flex-col items-center space-y-4 bg-[#FFE7CC] lg:p-12 p-6 rounded-xl overflow-hidden ">
-                    <img src="/key-4.svg" alt="" className="  lg:max-w-[80%] h-full drop-shadow-2xl  " />
-                    <img src="/Time Off.svg" alt="" className="  lg:max-w-[80%] h-full drop-shadow-2xl" />
+                    <img src="key-4.svg" alt="" className="  lg:max-w-[80%] h-full drop-shadow-2xl  " />
+                    <img src="Time Off.svg" alt="" className="  lg:max-w-[80%] h-full drop-shadow-2xl" />
                 </div>
                 
             </div>
             <div className=" grid lg:grid-cols-2 gap-3">
                 <div className=" lg:p-12 p-6 rounded-xl overflow-hidden bg-[#FAEAB1] ">
-                    <img src="/key-3.png" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
+                    <img src="key-3.png" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
                 </div>
                 <div className=" lg:p-12 py-6 space-y-4">
                     <SectionHeadings title="Effortless Talent Onboarding: Unlocking Your Workforce's Full Potential"  />
@@ -75,14 +75,14 @@ export default function SectionTwo() {
                     <Paragraph text_color="text-justify" description={`Simplify task assignment and elevate your team's productivity with our efficient task assignment and management solution. Our platform streamlines the process of allocating tasks, tracking progress, and ensuring timely completion. With user-friendly features like task prioritization, real-time updates, and collaboration tools, our solution empowers your team to work cohesively, stay organized, and meet deadlines. Experience a seamless task management experience that maximizes efficiency and fosters a more productive and successful work environment.`} />
                 </div>
                 <div className="  space-y-4 lg:order-2 order-1 lg:p-12 p-6 bg-[#DAE2B6] rounded-xl overflow-hidden ">
-                    <img src="/task.png" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
+                    <img src="task.png" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
                 
                 </div>
                 
             </div>
             <div className=" grid lg:grid-cols-2 gap-3">
                 <div className=" lg:p-12 p-6 rounded-xl overflow-hidden bg-[#D6E4E5] ">
-                    <img src="/key-5.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
+                    <img src="key-5.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
                 </div>
                 <div className="lg:p-12 py-6 space-y-4 flex flex-col justify-center">
                     <SectionHeadings title="Seamless Salary Payments: Timely and Reliable Compensation for Your Workforce"  />

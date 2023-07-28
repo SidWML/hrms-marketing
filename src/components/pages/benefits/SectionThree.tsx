@@ -12,7 +12,7 @@ export default function SectionThree() {
       <div className=" w-full lg:px-12 pt-24 grid lg:grid-cols-2 gap-6 ">
         <div className=" col-span-1 p-6  md:p-12 items-start flex flex-col  md:text-start  space-y-6 rounded-[30px] bg-white">
           <div className="   rounded-full">
-            <img src="/EPF.png" alt="" className=" w-[80px] h-[80px]" />
+            <img src="EPF.png" alt="" className=" w-[80px] h-[80px]" />
           </div>
           <SectionHeadings title={`Employee Provident Fund (EPF) Integration: Automated Retirement Savings`} />
 
@@ -23,7 +23,7 @@ export default function SectionThree() {
         </div>
         <div className=" col-span-1 p-6  md:p-12 items-start flex flex-col  md:text-start  space-y-6 rounded-[30px] bg-white">
           <div className="  rounded-full">
-            <img src="/ESI.jpg" alt="" className=" " />
+            <img src="ESI.jpg" alt="" className=" " />
           </div>
 
           <SectionHeadings title={`Employee State Insurance (ESI) Integration: Hassle-free Health Coverage`} />
@@ -35,7 +35,7 @@ export default function SectionThree() {
         </div>
         <div className=" col-span-1 p-6  md:p-12 flex flex-col items-start  md:text-start  space-y-6 rounded-[30px] bg-white">
           <div className="  rounded-full overflow-hidden">
-            <img src="/google-calendar.png" alt="" className=" w-[80px] h-[80px]" />
+            <img src="google-calendar.png" alt="" className=" w-[80px] h-[80px]" />
           </div>
 
           <SectionHeadings title={`Google Calendar Integration: Enhanced Scheduling and Collaboration`} />
@@ -47,7 +47,7 @@ export default function SectionThree() {
         </div>
         <div className=" col-span-1 p-6  md:p-12 items-start flex flex-col  md:text-start  space-y-6 rounded-[30px] bg-white">
           <div className="   rounded-full overflow-hidden">
-            <img src="/quickbook.png" alt="" className=" w-[80px] h-[80px]" />
+            <img src="quickbook.png" alt="" className=" w-[80px] h-[80px]" />
           </div>
 
           <SectionHeadings title={`QuickBooks Integration: Streamlined Financial Management`} />
@@ -59,7 +59,7 @@ export default function SectionThree() {
         </div>
         <div className=" col-span-1 p-6  md:p-12 items-start flex flex-col  md:text-start  space-y-6 rounded-[30px] bg-white">
           <div className="   rounded-full overflow-hidden">
-            <img src="/slack.jpg" alt="" className=" w-[80px] h-[80px]" />
+            <img src="slack.jpg" alt="" className=" w-[80px] h-[80px]" />
           </div>
 
           <SectionHeadings title={`QuickBooks Integration: Streamlined Financial Management`} />
@@ -71,7 +71,7 @@ export default function SectionThree() {
         </div>
         <div className=" col-span-1 p-6  md:p-12 items-start flex flex-col  md:text-start  space-y-6 rounded-[30px] bg-white">
           <div className="   flex min-h-[80px] items-center    ">
-            <img src="/wise.svg" alt="" className=" h-[60%] " />
+            <img src="wise.svg" alt="" className=" h-[60%] " />
           </div>
 
           <SectionHeadings title={`Wise Integration: Global Money Transfers Made Easy`} />

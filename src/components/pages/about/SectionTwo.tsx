@@ -14,7 +14,7 @@ export default function SectionTwo() {
                 <img src="http://www.fervidsmart.com/assets/img/logo/Fervid_Logo_svg.svg" alt="" className="" />
             </div>
             <div className=" lg:max-w-[10%] md:w-[30%] ">
-                <img src="/logo.png" alt="" className="" />
+                <img src="logo.png" alt="" className="" />
             </div>
         </div>
     </div>

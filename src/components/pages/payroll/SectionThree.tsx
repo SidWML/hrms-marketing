@@ -14,7 +14,7 @@ export default function SectionThree() {
       <div className=" w-full lg:px-12 py-24 flex flex-col lg:space-y-[120px] space-y-[60px] ">
         <div className=" grid lg:grid-cols-2 gap-3">
           <div className=" w-full bg-[#EAFDFC] rounded-xl p-6 overflow-hidden ">
-            <img src="/pr-1.svg" alt="" className="lg:max-w-[80%] w-full mx-auto h-full drop-shadow-2xl  " />
+            <img src="pr-1.svg" alt="" className="lg:max-w-[80%] w-full mx-auto h-full drop-shadow-2xl  " />
           </div>
           <div className=" lg:p-12 py-6  space-y-4">
             <SectionHeadings title="Seamless Payroll Updates: Changes Automatically Reflected" />
@@ -83,12 +83,12 @@ export default function SectionThree() {
             </div>
           </div>
           <div className="   lg:order-2 order-1 w-full  space-y-4 lg:p-12 rounded-xl p-6 overflow-hidden bg-[#F8EDE3]  ">
-            <img src="/payments.svg" alt="" className=" lg:max-w-[100%] m-auto h-full drop-shadow-2xl  " />
+            <img src="payments.svg" alt="" className=" lg:max-w-[100%] m-auto h-full drop-shadow-2xl  " />
           </div>
         </div>
         <div className=" grid lg:grid-cols-2 gap-3">
           <div className=" lg:p-12 p-6 bg-[#E9EDC9] rounded-xl overflow-hidden  ">
-            <img src="/pr-1.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
+            <img src="pr-1.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
           </div>
           <div className=" lg:p-12 py-6 space-y-4">
             <SectionHeadings title="Payroll Insights: Answering Questions with Breakdowns" />
@@ -156,7 +156,7 @@ export default function SectionThree() {
             </div>
           </div>
           <div className="  space-y-4 lg:order-2 order-1 lg:p-12 p-6 bg-[#FFBFA9] rounded-xl overflow-hidden  ">
-            <img src="/pr-2.svg" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
+            <img src="pr-2.svg" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
           </div>
         </div>
       </div>

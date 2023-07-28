@@ -9,7 +9,7 @@ export default function SectionTwo() {
            <div className=" w-full lg:px-12 py-12 flex flex-col lg:space-y-[120px] space-y-[60px] ">
         <div className=" grid lg:grid-cols-2 gap-3">
           <div className=" w-full bg-[#FFF4D2] bg-opacity-50 rounded-xl p-6 overflow-hidden ">
-            <img src="/providers.svg" alt="" className="lg:max-w-[70%] w-full mx-auto h-full drop-shadow-2xl  " />
+            <img src="providers.svg" alt="" className="lg:max-w-[70%] w-full mx-auto h-full drop-shadow-2xl  " />
           </div>
           <div className=" lg:p-12 py-6  space-y-4">
             <SectionHeadings title="Automated Integration: Simplify Benefits Management" />
@@ -61,7 +61,7 @@ export default function SectionTwo() {
             </div>
           </div>
           <div className="   lg:order-2 order-1 w-full  space-y-4 lg:p-12 rounded-xl p-6 overflow-hidden bg-[#FF5F9E] bg-opacity-20 ">
-            <img src="/benefits-2.svg" alt="" className=" w-[70%] h-full m-auto drop-shadow-2xl  " />
+            <img src="benefits-2.svg" alt="" className=" w-[70%] h-full m-auto drop-shadow-2xl  " />
           </div>
         </div>
       </div>

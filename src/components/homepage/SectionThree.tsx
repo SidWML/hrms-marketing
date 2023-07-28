@@ -12,7 +12,7 @@ export default function SectionThree() {
       <div className=" w-full lg:px-12 pt-24 grid lg:grid-cols-2 gap-6 ">
         <div className=" col-span-1 p-6  md:p-12 md:block flex flex-col items-center md:text-start text-center space-y-10 rounded-[30px] bg-white">
           <div className="p-2 bg-[#eac1ea] w-[max-content] rounded-full">
-            <img src="/search.png" alt="" className=" w-[80px] h-[80px]" />
+            <img src="search.png" alt="" className=" w-[80px] h-[80px]" />
           </div>
 
           <SectionHeadings
@@ -23,7 +23,7 @@ export default function SectionThree() {
         </div>
         <div className=" col-span-1 p-6  md:p-12 md:block flex flex-col items-center md:text-start text-center space-y-10 rounded-[30px] bg-white">
           <div className="p-2 bg-[#eac1ea] w-[max-content] rounded-full">
-            <img src="/flash.png" alt="" className=" w-[80px] h-[80px]" />
+            <img src="flash.png" alt="" className=" w-[80px] h-[80px]" />
           </div>
 
           <SectionHeadings
@@ -34,7 +34,7 @@ export default function SectionThree() {
         </div>
         <div className=" col-span-1 p-6  md:p-12 md:block flex flex-col items-center md:text-start text-center space-y-10 rounded-[30px] bg-white">
           <div className="p-2 bg-[#eac1ea] w-[max-content] rounded-full">
-            <img src="/user.png" alt="" className=" w-[80px] h-[80px]" />
+            <img src="user.png" alt="" className=" w-[80px] h-[80px]" />
           </div>
 
           <SectionHeadings
@@ -45,7 +45,7 @@ export default function SectionThree() {
         </div>
         <div className=" col-span-1 p-6  md:p-12 md:block flex flex-col items-center md:text-start text-center space-y-10 rounded-[30px] bg-white">
           <div className="p-2 bg-[#eac1ea] w-[max-content] rounded-full">
-            <img src="/clock.png" alt="" className=" w-[80px] h-[80px]" />
+            <img src="clock.png" alt="" className=" w-[80px] h-[80px]" />
           </div>
 
           <SectionHeadings

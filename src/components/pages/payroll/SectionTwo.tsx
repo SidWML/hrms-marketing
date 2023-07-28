@@ -28,7 +28,7 @@ export default function SectionTwo() {
       <div className=" w-full grid lg:grid-cols-3 rounded-[20px] overflow-hidden  ">
         <div ref={(el) => card1 = el} className=" col-span-1 px-6 py-12 flex flex-col items-center text-center space-y-10   bg-[#F5F5F5]">
           <div className=" w-[max-content] rounded-full">
-            <img src="/updates.png" alt="" className="max-h-[100px] " />
+            <img src="updates.png" alt="" className="max-h-[100px] " />
           </div>
 
           <SectionHeadings
@@ -39,7 +39,7 @@ export default function SectionTwo() {
         </div>
         <div ref={(el) => card2 = el} className=" col-span-1 px-6 py-12 lg:border-x lg:border-y-0 border-y flex flex-col items-center text-center space-y-10  bg-[#F5F5F5]">
           <div className=" w-[max-content] rounded-full">
-            <img src="/cut-off.png" alt="" className="max-h-[100px] " />
+            <img src="cut-off.png" alt="" className="max-h-[100px] " />
           </div>
 
           <SectionHeadings
@@ -50,7 +50,7 @@ export default function SectionTwo() {
         </div>
         <div ref={(el) => card3 = el} className=" col-span-1 px-6 py-12  flex flex-col items-center text-center space-y-10  bg-[#F5F5F5]">
           <div className=" w-[max-content] rounded-full">
-            <img src="/codes.png" alt="" className="max-h-[100px] " />
+            <img src="codes.png" alt="" className="max-h-[100px] " />
           </div>
 
           <SectionHeadings

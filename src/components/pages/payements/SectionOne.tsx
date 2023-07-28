@@ -20,7 +20,7 @@ export default function SectionOne() {
             </div>
           </div>
           <div className=" z-[2] h-full relative p-12 ">
-            <img src="/Online-payment-receipt.svg" alt="" className=" w-full h-full  m-auto" />
+            <img src="Online-payment-receipt.svg" alt="" className=" w-full h-full  m-auto" />
           </div>
         </div>
       </div>
