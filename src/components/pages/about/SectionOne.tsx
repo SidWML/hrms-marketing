@@ -20,7 +20,7 @@ export default function SectionOne() {
             </div>
           </div>
           <div className=" z-[2] h-full relative ">
-            <img src="employees.png" alt="" className=" h-full drop-shadow-2xl scale-150 object-scale-down w-full  m-auto" />
+            <img src="./employees.png" alt="" className=" h-full drop-shadow-2xl scale-150 object-scale-down w-full  m-auto" />
           </div>
         </div>
       </div>

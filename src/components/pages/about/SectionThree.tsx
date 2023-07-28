@@ -29,7 +29,7 @@ export default function SectionThree() {
             />
           </div>
           <div className="   w-full   overflow-hidden  flex  items-center  ">
-            <img src="team-4.jpg" alt="" className="  object-cover rounded-xl w-full  " />
+            <img src="./team-4.jpg" alt="" className="  object-cover rounded-xl w-full  " />
           </div>
         </div>
       </div>
@@ -37,13 +37,13 @@ export default function SectionThree() {
         <SectionHeadings text_color={`text-[#071952]`} title=" Our Investors" />
         <div className=" flex items-center gap-4 justify-center">
             <div className=" lg:max-w-[8%] md:w-[20%] w-full ">
-                <img src="https://wmlit.com/Logo.png" alt="" className="" />
+                <img src="./https://wmlit.com/Logo.png" alt="" className="" />
             </div>
             <div className=" lg:max-w-[10%] md:w-[30%] bg-black p-3 ">
-                <img src="http://www.fervidsmart.com/assets/img/logo/Fervid_Logo_svg.svg" alt="" className="" />
+                <img src="./http://www.fervidsmart.com/assets/img/logo/Fervid_Logo_svg.svg" alt="" className="" />
             </div>
             <div className=" lg:max-w-[10%] md:w-[30%] ">
-                <img src="logo.png" alt="" className="" />
+                <img src="./logo.png" alt="" className="" />
             </div>
         </div>
     </div>

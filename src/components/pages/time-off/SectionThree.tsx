@@ -14,7 +14,7 @@ export default function SectionThree() {
       <div className=" w-full lg:px-12 py-24 flex flex-col lg:space-y-[120px] space-y-[60px] ">
         <div className=" grid lg:grid-cols-2 gap-3">
           <div className=" w-full bg-[#EAFDFC] rounded-xl p-6 overflow-hidden ">
-            <img src="Group 45.svg" alt="" className="lg:max-w-[80%] w-full mx-auto h-full drop-shadow-2xl  " />
+            <img src="./Group 45.svg" alt="" className="lg:max-w-[80%] w-full mx-auto h-full drop-shadow-2xl  " />
           </div>
           <div className=" lg:p-12 py-6  space-y-4">
             <SectionHeadings title="Time-Off Coordination Hub" />
@@ -63,12 +63,12 @@ export default function SectionThree() {
             </div>
           </div>
           <div className="   lg:order-2 order-1 w-full  space-y-4 lg:p-12 rounded-xl p-6 overflow-hidden bg-[#F8EDE3]  ">
-            <img src="approval.svg" alt="" className=" lg:max-w-[100%] m-auto h-full drop-shadow-2xl  " />
+            <img src="./approval.svg" alt="" className=" lg:max-w-[100%] m-auto h-full drop-shadow-2xl  " />
           </div>
         </div>
         <div className=" grid lg:grid-cols-2 gap-3">
           <div className=" lg:p-12 p-6 bg-[#9376E0] bg-opacity-25 rounded-xl overflow-hidden  ">
-            <img src="time-off-payroll.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
+            <img src="./time-off-payroll.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
           </div>
           <div className=" lg:p-12 py-6 space-y-4">
             <SectionHeadings title="Seamless Payroll Integration for Hassle-Free Absence Management" />
@@ -125,7 +125,7 @@ export default function SectionThree() {
             </div>
           </div>
           <div className="  space-y-4 lg:order-2 order-1 bg-opacity-50 lg:p-12 p-6 bg-[#D0F5BE] rounded-xl overflow-hidden  ">
-            <img src="notifications.svg" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
+            <img src="./notifications.svg" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
           </div>
         </div>
       </div>

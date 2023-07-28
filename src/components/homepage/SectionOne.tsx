@@ -44,7 +44,7 @@ export default function SectionOne() {
           </div>
         </div>
         <div  className=" z-[2] lg:w-[95%]  w-[80%] mx-auto h-full relative ">
-          <img src="/h2.svg" alt="" className=" w-full h-full  m-auto drop-shadow-2xl " />
+          <img src=".//h2.svg" alt="" className=" w-full h-full  m-auto drop-shadow-2xl " />
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ export default function SectionOne() {
             </div>
           </div>
           <div className=" z-[2] h-full relative p-12 ">
-            <img src="benefits.svg" alt="" className=" max-w-[80%] h-full drop-shadow-2xl  m-auto" />
+            <img src="./benefits.svg" alt="" className=" max-w-[80%] h-full drop-shadow-2xl  m-auto" />
           </div>
         </div>
       </div>

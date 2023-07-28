@@ -14,7 +14,7 @@ export default function SectionTwo() {
       <div className=" w-full lg:px-12 py-24 flex flex-col lg:space-y-[120px] space-y-[60px] ">
         <div className=" grid lg:grid-cols-2 gap-3">
           <div className=" w-full bg-[#F2D8D8] bg-opacity-80 rounded-xl p-6 overflow-hidden ">
-            <img src="payments.svg" alt="" className="lg:max-w-[80%] w-full mx-auto h-full drop-shadow-2xl  " />
+            <img src="./payments.svg" alt="" className="lg:max-w-[80%] w-full mx-auto h-full drop-shadow-2xl  " />
           </div>
           <div className=" lg:p-12 py-6  space-y-4">
             <SectionHeadings title="Automated Salary Payments Made Easy" />
@@ -69,12 +69,12 @@ export default function SectionTwo() {
             </div>
           </div>
           <div className="   lg:order-2 order-1 w-full  space-y-4 lg:p-12 rounded-xl p-6 overflow-hidden bg-[#F8EDE3]  ">
-            <img src="pay.png" alt="" className=" lg:max-w-[100%] m-auto h-full drop-shadow-2xl  " />
+            <img src="./pay.png" alt="" className=" lg:max-w-[100%] m-auto h-full drop-shadow-2xl  " />
           </div>
         </div>
         <div className=" grid lg:grid-cols-2 gap-3">
           <div className=" lg:p-12 p-6 bg-[#E57C23] bg-opacity-30 rounded-xl overflow-hidden  ">
-            <img src="bulk.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
+            <img src="./bulk.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
           </div>
           <div className=" lg:p-12 py-6 space-y-4">
             <SectionHeadings title="Effortless Bulk Payments for Efficient Transactions" />
@@ -122,7 +122,7 @@ export default function SectionTwo() {
             </div>
           </div>
           <div className="  space-y-4 lg:order-2 order-1 lg:p-12 p-6 bg-[#C4DFDF] bg-opacity-50 rounded-xl overflow-hidden  ">
-            <img src="schedule.png" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
+            <img src="./schedule.png" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
           </div>
         </div>
       </div>
