@@ -4,7 +4,7 @@ const nextConfig = {
   output: 'standalone',
   images: {
     loader: "akamai",
-    path: "/",
+    path: "./",
   },
   eslint: {
     ignoreDuringBuilds: true,
