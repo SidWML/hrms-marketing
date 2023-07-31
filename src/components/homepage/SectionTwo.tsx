@@ -16,17 +16,57 @@ export default function SectionTwo() {
         })
         tl.fromTo(".h-s2-title ", { y:"100px" , opacity:0 }, { y:"0px", opacity:1, stagger:{ amount:0.5 } })
 
+        const g_1 = gsap.timeline({
+            scrollTrigger:{
+              trigger:".h-g-1",
+              start:" 500px",
+              end:"100%",
+            },defaults:{ duration:1}
+          })
+          g_1.fromTo(".h-g-1", { x:"200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+          const g_2 = gsap.timeline({
+            scrollTrigger:{
+              trigger:".h-g-2",
+              start:" 500px",
+              end:"100%",
+            },defaults:{ duration:1}
+          })
+          g_2.fromTo(".h-g-2", { x:"-200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+          const g_3 = gsap.timeline({
+            scrollTrigger:{
+              trigger:".h-g-3",
+              start:" 500px",
+              end:"100%",
+            },defaults:{ duration:1}
+          })
+          g_3.fromTo(".h-g-3", {  y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+          const g_4 = gsap.timeline({
+            scrollTrigger:{
+              trigger:".h-g-4",
+              start:" 500px",
+              end:"100%",
+            },defaults:{ duration:1}
+          })
+          g_4.fromTo(".h-g-4", { x:"-200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+          const g_5 = gsap.timeline({
+            scrollTrigger:{
+              trigger:".h-g-5",
+              start:" 500px",
+              end:"100%",
+            },defaults:{ duration:1}
+          })
+          g_5.fromTo(".h-g-5", { x:"200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
         
       }, [])
   return (
-    <div className=" w-full md:p-12 p-6">
+    <div className=" w-full md:p-12 p-6 overflow-hidden">
         <div className=" text-center space-y-4 lg:w-[80%] h-s2-title w-full mx-auto">
             <SectionHeadings text_color="text-sky-500" title="KEY FEATURES" description_color={"text-gray-600"} />
             <TitleTypography text_color={` `}  title="Effortless HR Management: Experience the Magic of Our Innovative HR Application" />
         </div>
 
         <div className=" w-full lg:px-12 py-24 flex flex-col lg:space-y-[120px] space-y-[60px] ">
-            <div className=" grid lg:grid-cols-2 gap-3 relative ">
+            <div className=" grid lg:grid-cols-2 gap-3 relative h-g-1 ">
                 <div className="   w-full lg:p-12 rounded-xl overflow-hidden   p-6 bg-[#DEF5E5]">
                     <img src="./key-3.svg" alt="" className=" lg:max-w-[80%] mx-auto w-full h-full drop-shadow-2xl  " />
                 </div>
@@ -38,7 +78,7 @@ export default function SectionTwo() {
                     <Paragraph text_color="text-justify" text_color={` `} description={`With powerful reporting and analytics tools, gain valuable insights into your workforce. Identify trends, track employee performance, and make data-driven decisions to optimize your HR strategies.`} />
                 </div>
             </div>
-            <div className=" grid lg:grid-cols-2 gap-3">
+            <div className=" grid lg:grid-cols-2 gap-3 h-g-2">
             <div className=" lg:p-12 py-6 lg:order-1 order-2 space-y-4">
                     <SectionHeadings title="Empower Your Workforce with Effortless Attendance and Leave Management"  />
                     <Paragraph text_color="text-justify" description={`Transform the way you manage attendance and leave with our user-friendly and efficient solution. With seamless attendance tracking and leave management capabilities, our application empowers your workforce and streamlines HR operations.`} />
@@ -60,7 +100,7 @@ export default function SectionTwo() {
                 </div>
                 
             </div>
-            <div className=" grid lg:grid-cols-2 gap-3">
+            <div className=" grid lg:grid-cols-2 gap-3 h-g-3">
                 <div className=" lg:p-12 p-6 rounded-xl overflow-hidden bg-[#FAEAB1] ">
                     <img src="./key-3.png" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
                 </div>
@@ -69,7 +109,7 @@ export default function SectionTwo() {
                     <Paragraph text_color="text-justify" description={`Unleash the power of your workforce with our effortless talent onboarding solution. Designed to simplify and optimize the integration process, our platform enables seamless onboarding for new hires. From personalized onboarding plans to digital document management, our comprehensive features ensure a smooth transition for employees, allowing them to quickly contribute and thrive within your organization. Embrace efficiency and productivity with our innovative talent onboarding solution, setting the foundation for long-term success.`} />
                 </div>
             </div>
-            <div className=" grid lg:grid-cols-2 gap-3">
+            <div className=" grid lg:grid-cols-2 gap-3 h-g-4">
             <div className=" lg:p-12 py-6 lg:order-1 order-2 space-y-4">
                     <SectionHeadings title="Efficient Task Assignment and Management: Empowering Your Team's Productivity"  />
                     <Paragraph text_color="text-justify" description={`Simplify task assignment and elevate your team's productivity with our efficient task assignment and management solution. Our platform streamlines the process of allocating tasks, tracking progress, and ensuring timely completion. With user-friendly features like task prioritization, real-time updates, and collaboration tools, our solution empowers your team to work cohesively, stay organized, and meet deadlines. Experience a seamless task management experience that maximizes efficiency and fosters a more productive and successful work environment.`} />
@@ -80,7 +120,7 @@ export default function SectionTwo() {
                 </div>
                 
             </div>
-            <div className=" grid lg:grid-cols-2 gap-3">
+            <div className=" grid lg:grid-cols-2 gap-3 h-g-5">
                 <div className=" lg:p-12 p-6 rounded-xl overflow-hidden bg-[#D6E4E5] ">
                     <img src="./key-5.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
                 </div>

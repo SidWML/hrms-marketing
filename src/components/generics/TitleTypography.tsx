@@ -29,4 +29,4 @@ export default function TitleTypography({title, text_color}) {
   return (
     <h1 style={{fontSize:"clamp(28px, 8vmin, 56px)", letterSpacing:"-0.02em", lineHeight:"1.05"}} className={`${text_color} title-heading  font-[810]`}>{title}</h1>
   )
-}
+}                

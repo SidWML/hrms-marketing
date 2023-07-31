@@ -1,18 +1,71 @@
 import Paragraph from "@/components/generics/Paragraph";
 import SectionHeadings from "@/components/generics/SectionHeadings";
 import TitleTypography from "@/components/generics/TitleTypography";
-import React from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import React, { useEffect } from "react";
+gsap.registerPlugin(ScrollTrigger)
 
 export default function SectionThree() {
+  useEffect(() => {
+    const tl = gsap.timeline({
+      scrollTrigger:{
+        trigger:".h-s2-title",
+        start:" 400px",
+      }
+    })
+    tl.fromTo(".h-s2-title ", { y:"100px" , opacity:0 }, { y:"0px", opacity:1, stagger:{ amount:0.5 } })
+    const g_1 = gsap.timeline({
+        scrollTrigger:{
+          trigger:".h-g-1",
+          start:" 500px",
+          end:"100%",
+        },defaults:{ duration:1}
+      })
+      g_1.fromTo(".h-g-1", { x:"200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+      const g_2 = gsap.timeline({
+        scrollTrigger:{
+          trigger:".h-g-2",
+          start:" 500px",
+          end:"100%",
+        },defaults:{ duration:1}
+      })
+      g_2.fromTo(".h-g-2", { x:"-200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+      const g_3 = gsap.timeline({
+        scrollTrigger:{
+          trigger:".h-g-3",
+          start:" 500px",
+          end:"100%",
+        },defaults:{ duration:1}
+      })
+      g_3.fromTo(".h-g-3", {  y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+      const g_4 = gsap.timeline({
+        scrollTrigger:{
+          trigger:".h-g-4",
+          start:" 500px",
+          end:"100%",
+        },defaults:{ duration:1}
+      })
+      g_4.fromTo(".h-g-4", { x:"-200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+      const g_5 = gsap.timeline({
+        scrollTrigger:{
+          trigger:".h-g-5",
+          start:" 500px",
+          end:"100%",
+        },defaults:{ duration:1}
+      })
+      g_5.fromTo(".h-g-5", { x:"200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+    
+  }, [])
   return (
     <div className=" w-full md:p-12 p-6">
       <div className=" text-center space-y-4 lg:w-[80%] w-full mx-auto">
         <SectionHeadings text_color="text-sky-500" title="PAYROLL" description_color={"text-gray-600"} />
-        <TitleTypography title="Take the stress out of HR management with HRM's automated updates. Here's how it works" />
+        <TitleTypography text_color={`h-s2-title`} title="Take the stress out of HR management with HRM's automated updates. Here's how it works" />
       </div>
 
       <div className=" w-full lg:px-12 py-24 flex flex-col lg:space-y-[120px] space-y-[60px] ">
-        <div className=" grid lg:grid-cols-2 gap-3">
+        <div className=" grid lg:grid-cols-2 gap-3 h-g-1">
           <div className=" w-full bg-[#EAFDFC] rounded-xl p-6 overflow-hidden ">
             <img src="./pr-1.svg" alt="" className="lg:max-w-[80%] w-full mx-auto h-full drop-shadow-2xl  " />
           </div>
@@ -49,7 +102,7 @@ export default function SectionThree() {
             </div>
           </div>
         </div>
-        <div className=" grid lg:grid-cols-2 gap-3">
+        <div className=" grid lg:grid-cols-2 gap-3 h-g-2">
           <div className=" lg:p-12 py-6 lg:order-1 order-2 space-y-4">
             <SectionHeadings title="Effortless Payment Automation: Streamline Your Finances" />
             <Paragraph
@@ -86,7 +139,7 @@ export default function SectionThree() {
             <img src="./payments.svg" alt="" className=" lg:max-w-[100%] m-auto h-full drop-shadow-2xl  " />
           </div>
         </div>
-        <div className=" grid lg:grid-cols-2 gap-3">
+        <div className=" grid lg:grid-cols-2 gap-3 h-g-3">
           <div className=" lg:p-12 p-6 bg-[#E9EDC9] rounded-xl overflow-hidden  ">
             <img src="./pr-1.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
           </div>
@@ -119,7 +172,7 @@ export default function SectionThree() {
             </div>
           </div>
         </div>
-        <div className=" grid lg:grid-cols-2 gap-3">
+        <div className=" grid lg:grid-cols-2 gap-3 h-g-4">
           <div className=" lg:p-12 py-6 lg:order-1 order-2 space-y-4">
             <SectionHeadings title="Automated Payslip Storage: Easy Access for Employees" />
             <div className=" space-y-4">

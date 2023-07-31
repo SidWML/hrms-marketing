@@ -2,7 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'standalone',
-
+  images: {
+    loader: "akamai",
+    path: "/",
+  },
   eslint: {
     ignoreDuringBuilds: true,
 

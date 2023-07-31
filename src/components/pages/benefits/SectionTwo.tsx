@@ -1,13 +1,36 @@
 import Paragraph from '@/components/generics/Paragraph'
 import SectionHeadings from '@/components/generics/SectionHeadings'
 import TitleTypography from '@/components/generics/TitleTypography'
-import React from 'react'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+import React, { useEffect } from 'react'
+gsap.registerPlugin(ScrollTrigger)
 
 export default function SectionTwo() {
+  useEffect(() => {
+   
+    const g_1 = gsap.timeline({
+        scrollTrigger:{
+          trigger:".h-g-1",
+          start:" 500px",
+          end:"100%",
+        },defaults:{ duration:1}
+      })
+      g_1.fromTo(".h-g-1", { x:"200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+      const g_2 = gsap.timeline({
+        scrollTrigger:{
+          trigger:".h-g-2",
+          start:" 500px",
+          end:"100%",
+        },defaults:{ duration:1}
+      })
+      g_2.fromTo(".h-g-2", { x:"-200px", y:"200px", opacity:0 }, { x:"0px", y:"0px", opacity:1,  })
+    
+  }, [])
   return (
     <div className=" w-full md:p-12 p-6">
            <div className=" w-full lg:px-12 py-12 flex flex-col lg:space-y-[120px] space-y-[60px] ">
-        <div className=" grid lg:grid-cols-2 gap-3">
+        <div className=" grid lg:grid-cols-2 gap-3 h-g-1">
           <div className=" w-full bg-[#FFF4D2] bg-opacity-50 rounded-xl p-6 overflow-hidden ">
             <img src="./providers.svg" alt="" className="lg:max-w-[70%] w-full mx-auto h-full drop-shadow-2xl  " />
           </div>
@@ -37,7 +60,7 @@ export default function SectionTwo() {
             </div>
           </div>
         </div>
-        <div className=" grid lg:grid-cols-2 gap-3">
+        <div className=" grid lg:grid-cols-2 gap-3 h-g-2">
           <div className=" lg:p-12 py-6 lg:order-1 order-2 space-y-4">
             <SectionHeadings title="Empowerment through Personalized Benefits: Boost Engagement" />
             <div className=" space-y-4">

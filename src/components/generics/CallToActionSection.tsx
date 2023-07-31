@@ -10,7 +10,7 @@ export default function CallToActionSection({background}) {
        <img src="./run.png" alt="" className=" max-w-[50%] " />
      </div>
      <div className=" space-y-6  md:col-span-2 md:text-start text-center">
-       <TitleTypography title={`EmpowerHRM: Elevate HR Management`} />
+       <TitleTypography title={`Empower HRM: Elevate HR Management`} />
        <SectionHeadings description={`Streamlined HR processes. Powerful automation. Reserve your demo now!`}  />
        <div className=" flex md:flex-row flex-col items-center gap-4 ">
        <Button bg_color={`border-[white] border`} text_color={`text-white`} href="/register" label={`Book a demo `} />

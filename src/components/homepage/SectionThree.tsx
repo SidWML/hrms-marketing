@@ -1,6 +1,9 @@
 import React from "react";
 import SectionHeadings from "../generics/SectionHeadings";
 import TitleTypography from "../generics/TitleTypography";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger)
 
 export default function SectionThree() {
   return (
