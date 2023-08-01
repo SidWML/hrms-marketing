@@ -76,7 +76,6 @@ export default function SectionThree() {
               description={`Experience a hassle-free payroll process with HRM's automated updates. Changes between payrolls are effortlessly surfaced, providing accurate and up-to-date information without manual intervention. Say goodbye to tedious manual updates and embrace the efficiency of automated payroll management.`}
             />
             <div className=" space-y-4">
-              <SectionHeadings title="Key Featutes" />
               <ul className=" space-y-4 list-outside pl-4 list-disc">
                 <li className="">
                   Instant Changes: Witness salary adjustments reflected instantly on the payroll screen as you make updates, avoiding delays and
@@ -110,7 +109,6 @@ export default function SectionThree() {
               description={`Streamline your payment process with HRM's payment automation. Say goodbye to manual payment tasks as our system automates payment calculations, processing, and disbursements. Enjoy increased efficiency, reduced errors, and improved accuracy, allowing you to focus on strategic financial decisions and driving your business forward.`}
             />
             <div className=" space-y-4">
-              <SectionHeadings title="Key Featutes" />
               <ul className=" space-y-4 list-outside pl-4 list-disc">
                 <li className="">
                   Simplify Payment Tasks: HRM's payment automation feature eliminates the need for manual payment calculations, processing, and
@@ -146,7 +144,6 @@ export default function SectionThree() {
           <div className=" lg:p-12 py-6 space-y-4">
             <SectionHeadings title="Payroll Insights: Answering Questions with Breakdowns" />
             <div className=" space-y-4">
-              <SectionHeadings title="Key Featutes" />
               <ul className=" space-y-4 list-outside pl-4 list-disc">
                 <li className="">
                   Detailed Payroll Analysis: HRM provides breakdowns of payslips that offer a detailed analysis of salary components and
@@ -176,7 +173,6 @@ export default function SectionThree() {
           <div className=" lg:p-12 py-6 lg:order-1 order-2 space-y-4">
             <SectionHeadings title="Automated Payslip Storage: Easy Access for Employees" />
             <div className=" space-y-4">
-              <SectionHeadings title="Key Featutes" />
               <ul className=" space-y-4 list-outside pl-4 list-disc">
                 <li className="">
                   Effortless Record-Keeping: Payslips are automatically stored in the employee portal, eliminating the need for manual filing and

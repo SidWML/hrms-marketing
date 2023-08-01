@@ -4,13 +4,15 @@ import SectionTwo from './SectionTwo'
 import CallToActionSection from '@/components/generics/CallToActionSection'
 import Marquee from '@/components/generics/Marquee'
 
-export default function PaymentLandingPage() {
+export default function EmployeePortal() {
   return (
     <div className="">
         <SectionOne />
-        <Marquee />
+        <Marquee  />
         <SectionTwo />
-        <div className=" lg:w-[90%] mx-auto p-6"><CallToActionSection background={` bg-[#41644A]`} /></div>
+        <div className=" lg:w-[90%]  p-6 mx-auto">
+        <CallToActionSection background={` bg-[#70133a]`} />
+        </div>
     </div>
   )
 }

@@ -8,17 +8,18 @@ export const navlinks = [
   {
     link: "Product",
     subLinks: [
-      // {
-      //   link: "People",
-      //   href: "/people",
-      //   icon: "/users.png",
-      //   Description: "Manage and view employee information, profiles, and related data.",
-      // },
+      
       {
         link: "Payroll",
         href: "/payroll",
         icon: "/payroll.png",
         Description: "Process and manage employee salaries, wages, and compensation.",
+      },
+      {
+        link: "Employee portal ",
+        href: "/employee-portal",
+        icon: "/users.png",
+        Description: "Manage and view employee information, profiles, and related data.",
       },
       {
         link: "Benefits",

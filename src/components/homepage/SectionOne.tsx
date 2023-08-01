@@ -43,7 +43,7 @@ export default function SectionOne() {
           <Button bg_color={`bg-[#cde026]`} text_color={`text-white`} href="/register" label={`Get Started`} />
           </div>
         </div>
-        <div  className=" z-[2] lg:w-[95%]  w-[80%] mx-auto h-full relative ">
+        <div  className=" z-[2] lg:w-[95%] lg:p-16 p-6 lg:rounded-[50px] rounded-xl border-2 backdrop-blur-3xl  bg-slate-200 bg-opacity-50 w-[80%] mx-auto h-full relative ">
           <img src=".//h2.svg" alt="" className=" w-full h-full  m-auto drop-shadow-2xl " />
         </div>
       </div>

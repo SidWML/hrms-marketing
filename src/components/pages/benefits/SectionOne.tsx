@@ -6,7 +6,7 @@ import React from 'react'
 export default function SectionOne() {
   return (
     <div className="">
-      <div className=" w-full min-h-screen overflow-hidden relative flex flex-col items-center lg:p-12 py-12 justify-center bg-[#990011FF]">
+      <div className=" w-full min-h-screen overflow-hidden relative flex flex-col items-center lg:p-12 py-12 justify-center bg-[#70133a]">
         <div className=" py-[100px] text-start w-full grid lg:grid-cols-2  gap-4  ">
           <div className=" space-y-4  col-span-1 lg:p-12 p-6 w-full lg:text-start text-center">
             <TitleTypography text_color="text-[#FCF6F5FF]   " title="Explore the Superior HRM Benefits Management Solution" />

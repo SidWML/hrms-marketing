@@ -5,7 +5,7 @@ import { inter } from '@/pages'
 
 export default function HRMLayout({children}) {
   return (
-    <div className={` ${inter.className}`}>
+    <div className={` ${inter.className} overflow-hidden`}>
         <Navbar />
         {children}
         <Footer/>

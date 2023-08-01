@@ -18,14 +18,17 @@ export default function Footer() {
           <button className="px-12 py-4 rounded-full  bg-[#cde026]">SUBMIT</button>
         </div>
       </div>
-      <div className=" lg:w-[80%] w-full p-[40px] mx-auto md:grid flex flex-col md:text-start text-center md:items-start items-center  lg:grid-cols-5 lg:gap-0 gap-6 md:grid-cols-3  bg-white  rounded-[20px]">
-        <div className=" col-span-1 w-full">
+      <div className=" lg:w-[80%] w-full p-[40px] mx-auto md:grid flex flex-col md:text-start text-center md:items-start items-center  lg:grid-cols-5 lg:gap-5 gap-6 md:grid-cols-3  bg-white  rounded-[20px]">
+        <div className=" col-span-2 w-full space-y-6">
           <h1 className="   font-bold text-6xl">HRM</h1>
+
+          <SectionHeadings title={`Empower Your Payroll & Payments`} description={`Our platform empowers your business by boosting productivity and performance, allowing you to concentrate on your core objectives. `} />
+          {/* <Button label={`Get a Demo`} bg_color={` bg-[#cde026] `} href="/register" /> */}
         </div>
         {navlinks.map((link) => (
           <div className=" space-y-2 col-span-1 ">
             <SectionHeadings text_color={`md:text-start text-center`} title={link.link} />
-            <div className=" space-y-1">
+            <div className=" space-y-4">
               {link.subLinks.map((sublink) => (
                 <Link className="block" href={sublink.href}>
                   {" "}
