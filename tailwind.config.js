@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        marquee: "marquee 100s linear infinite"
+        marquee: "marquee 100s linear infinite",
+        backward1:"backward1 100s linear infinite",
+        backward2:"backward2 100s linear infinite"
       },
       keyframes: {
         marquee: {
@@ -19,6 +21,23 @@ module.exports = {
             transform: 'translateX(calc(-100% - 2.5rem))',
           },
         },
+        backward1:{
+          from: {
+            left: 'translateX(0)',
+          },
+          to: {
+            transform: 'translateX(calc(100% - 2.5rem))',
+          },
+        },
+        backward2:{
+          from: {
+            left: 'translateX(0)',
+          },
+          to: {
+            transform: 'translateX(calc(100% - 2.5rem))',
+          },
+        }
+      
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

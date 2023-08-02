@@ -67,8 +67,8 @@ export default function SectionTwo() {
 
         <div className=" w-full lg:px-12 py-24 flex flex-col lg:space-y-[120px] space-y-[60px] ">
             <div className=" grid lg:grid-cols-2 gap-3 relative h-g-1 ">
-                <div className="   w-full lg:p-12 rounded-xl overflow-hidden bg-opacity-60   p-6 bg-[#DEF5E5]">
-                    <img src="./key-3.svg" alt="" className=" lg:max-w-[80%] mx-auto w-full h-full drop-shadow-2xl  " />
+                <div className="  w-full lg:p-12 rounded-xl overflow-hidden bg-opacity-60   p-6 bg-[#DEF5E5]">
+                    <img src="./key-3.svg" alt="" className=" lg:max-w-[60%] mx-auto w-full h-full drop-shadow-2xl  " />
                 </div>
                 <div className=" lg:p-12 py-6  space-y-4 h-[max-content]  ">
                     <SectionHeadings title="Streamlined Employee Data Management: Elevate HR Efficiency with Our Advanced Solution"  />
@@ -95,8 +95,8 @@ export default function SectionTwo() {
                     </div>
                 </div>
                 <div className="  lg:order-2 order-1 w-full m-auto flex flex-col items-center space-y-4 bg-[#FFE7CC] bg-opacity-40 lg:p-12 p-6 rounded-xl overflow-hidden ">
-                    <img src="./key-4.svg" alt="" className="  lg:max-w-[80%] h-full drop-shadow-2xl  " />
-                    <img src="./Time Off.svg" alt="" className="  lg:max-w-[80%] h-full drop-shadow-2xl" />
+                    <img src="./key-4.svg" alt="" className="  lg:max-w-[60%] h-full drop-shadow-2xl  " />
+                    <img src="./Time Off.svg" alt="" className="  lg:max-w-[60%] h-full drop-shadow-2xl" />
                 </div>
                 
             </div>

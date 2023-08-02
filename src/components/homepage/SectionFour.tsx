@@ -21,9 +21,7 @@ export default function SectionFour() {
                 <img src="./logo.png" alt="" className="" />
             </div>
         </div>
-    </div>
-      <CallToActionSection background={`bg-[#3F2E3E]`} />
-       
+    </div>       
     </div>
   )
 }

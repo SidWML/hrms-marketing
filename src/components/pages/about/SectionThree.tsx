@@ -9,7 +9,7 @@ export default function SectionThree() {
       <div className=" w-full lg:px-12  flex flex-col  space-y-[60px] ">
         <div className=" grid lg:grid-cols-2 gap-6">
           <div className=" lg:p-6  space-y-4">
-            <TitleTypography text_color={` lg:text-start text-center`} title={`HRM`} />
+            <TitleTypography text_color={` lg:text-start text-center `} title={`HRM`} />
             <Paragraph
               text_color="text-justify"
               description={`At HRM, we understand the frustrations that HR and finance teams face when dealing with complex and time-consuming administrative tasks. That's why we set out to create a powerful HRM (Human Resource Management) solution that simplifies people data management and streamlines essential HR processes`}
