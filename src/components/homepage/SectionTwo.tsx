@@ -114,15 +114,15 @@ export default function SectionTwo() {
                     <SectionHeadings title="Efficient Task Assignment and Management: Empowering Your Team's Productivity"  />
                     <Paragraph text_color="text-justify" description={`Simplify task assignment and elevate your team's productivity with our efficient task assignment and management solution. Our platform streamlines the process of allocating tasks, tracking progress, and ensuring timely completion. With user-friendly features like task prioritization, real-time updates, and collaboration tools, our solution empowers your team to work cohesively, stay organized, and meet deadlines. Experience a seamless task management experience that maximizes efficiency and fosters a more productive and successful work environment.`} />
                 </div>
-                <div className="  space-y-4 lg:order-2 order-1 lg:p-12 p-6 bg-[#DAE2B6] bg-opacity-30 rounded-xl overflow-hidden ">
-                    <img src="./task.png" alt="" className=" w-full h-full object-scale-down drop-shadow-2xl  " />
+                <div className="  space-y-4 lg:order-2 order-1 lg:p-12 p-6 bg-[#DAE2B6] bg-opacity-30 rounded-xl overflow-hidden flex items-center justify-center ">
+                    <img src="./task.png" alt="" className=" max-w-[70%] h-full object-scale-down drop-shadow-2xl  " />
                 
                 </div>
                 
             </div>
             <div className=" grid lg:grid-cols-2 gap-3 h-g-5">
                 <div className=" lg:p-12 p-6 rounded-xl overflow-hidden bg-[#D6E4E5] bg-opacity-30 ">
-                    <img src="./key-5.svg" alt="" className=" w-full h-full drop-shadow-2xl object-scale-down  " />
+                    <img src="./key-5.svg" alt="" className=" max-w-[70%] h-full drop-shadow-2xl object-scale-down  " />
                 </div>
                 <div className="lg:p-12 py-6 space-y-4 flex flex-col justify-center">
                     <SectionHeadings title="Seamless Salary Payments: Timely and Reliable Compensation for Your Workforce"  />
